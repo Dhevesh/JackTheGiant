@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4412074783476181127}
   - component: {fileID: 1066606227970712466}
   - component: {fileID: 6079559393111343247}
+  - component: {fileID: 318442061671859105}
   m_Layer: 0
   m_Name: PlayerCharacterJackMain
   m_TagString: Untagged
@@ -122,7 +123,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &6079559393111343247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,3 +150,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.63889855, y: 1.1730449}
   m_EdgeRadius: 0
+--- !u!114 &318442061671859105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412074783476181126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c64d7c71ae24643ae88dec6abebd8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
