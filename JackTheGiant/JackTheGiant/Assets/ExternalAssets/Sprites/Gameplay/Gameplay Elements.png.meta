@@ -1,7 +1,127 @@
 fileFormatVersion: 2
 guid: c1e52b9c7404874479d2bc3a4563b177
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5987835310966106439
+    second: Resume Button
+  - first:
+      213: -1137339816330710437
+    second: Player Life Icon
+  - first:
+      213: -40998898920023330
+    second: Quit Button
+  - first:
+      213: 3945471451079132055
+    second: Coin Icon
+  - first:
+      213: 9016799992932251716
+    second: White Cloud1
+  - first:
+      213: 5136126439782168408
+    second: White Cloud2
+  - first:
+      213: -3501187569540670499
+    second: Pause Button
+  - first:
+      213: 4354732089085239107
+    second: White Cloud3
+  - first:
+      213: 4257814812895377731
+    second: Dark Cloud
+  - first:
+      213: -3311312667229013650
+    second: Score Icon
+  - first:
+      213: -4504691372432430140
+    second: Coin Icon
+  - first:
+      213: 7598859861329351719
+    second: White Cloud1
+  - first:
+      213: -1040884793168151050
+    second: White Cloud2
+  - first:
+      213: -5855533656667214535
+    second: Pause Button
+  - first:
+      213: 8809548645194950162
+    second: White Cloud3
+  - first:
+      213: -2395938884929929944
+    second: Dark Cloud 1
+  - first:
+      213: -9025154192369482263
+    second: Score Icon
+  - first:
+      213: -4520469775785021144
+    second: Gameplay Elements_19
+  - first:
+      213: 7938934798021418272
+    second: Gameplay Elements_20
+  - first:
+      213: -3451803172819740744
+    second: Gameplay Elements_21
+  - first:
+      213: 5230079719557463868
+    second: Gameplay Elements_22
+  - first:
+      213: 639380849120301170
+    second: Gameplay Elements_23
+  - first:
+      213: -7701236744197800714
+    second: Gameplay Elements_24
+  - first:
+      213: -7651660955692321315
+    second: Gameplay Elements_25
+  - first:
+      213: 3490877373041789947
+    second: Gameplay Elements_26
+  - first:
+      213: 1338618940728386022
+    second: Ready Button
+  - first:
+      213: -3609588591887111489
+    second: Gameplay Elements_33
+  - first:
+      213: 4729679447545559871
+    second: Gameplay Elements_34
+  - first:
+      213: -4741972485584669740
+    second: Gameplay Elements_35
+  - first:
+      213: 4377509599894063336
+    second: Gameplay Elements_36
+  - first:
+      213: 9176922672614802885
+    second: Gameplay Elements_37
+  - first:
+      213: 9086268685060301414
+    second: Gameplay Elements_38
+  - first:
+      213: 4815254528902312000
+    second: Resume Button
+  - first:
+      213: -6607178875853909384
+    second: Player Life Icon
+  - first:
+      213: 7628800268639793799
+    second: Quit Button
+  - first:
+      213: 3608698807706474634
+    second: Ready Button
+  - first:
+      213: -6908688868913861527
+    second: Gameplay Elements_11
+  - first:
+      213: 5567274761461643289
+    second: Gameplay Elements_12
+  - first:
+      213: 4781976052634120432
+    second: Gameplay Elements_13
+  - first:
+      213: -8130023994961416096
+    second: Gameplay Elements_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -93,7 +213,238 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Resume Button
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 191
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de334a1bc7cfd4e4ca0b9f9351a2f98c
+      internalID: 4815254528902312000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Life Icon
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 259
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5e7529791c8e5468249efd864b6d7d
+      internalID: -6607178875853909384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quit Button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 192
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9096b3cf3347d45a9002f59675246c
+      internalID: 7628800268639793799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Icon
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 212
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2230892b94ebd294992e514d3d4e242a
+      internalID: -4504691372432430140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Cloud1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 193
+        width: 170
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc609ae628a4e140a6e4d821f5f994b
+      internalID: 7598859861329351719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Cloud2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 148
+        width: 172
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d771a28c1af974b838fd63714bdc69
+      internalID: -1040884793168151050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause Button
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 147
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9fcdb2449bdba4d8d283dc8771f064
+      internalID: -5855533656667214535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Cloud3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 102
+        width: 172
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d6f5221d4c9f34fbb7f7b1d9e67e99
+      internalID: 8809548645194950162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Cloud 1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 44
+        width: 118
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcebe559285203a45b9b5f0b76e7efa8
+      internalID: -2395938884929929944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Score Icon
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 53
+        width: 84
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2873a1ec3235c74eb087face785c305
+      internalID: -9025154192369482263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ready Button
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 161
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adbe3d1ee9ff1e49863a34d016dd606
+      internalID: 3608698807706474634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
