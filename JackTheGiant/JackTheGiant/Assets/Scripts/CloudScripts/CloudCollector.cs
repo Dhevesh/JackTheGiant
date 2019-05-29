@@ -9,7 +9,7 @@ public class CloudCollector : MonoBehaviour
     {
         if (target.tag == "WhiteCloud" || target.tag == "DarkCloud")
         {
-            target.gameObject.SetActive(false);
+            Destroy(target.gameObject);
         }
     }
 }
