@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header ("Movement Variables")]
+    [Header("Movement Variables")]
     [SerializeField] private float maxSpeed = 8f;
     [SerializeField] private float maxVelocity = 4f;
 
@@ -57,7 +57,5 @@ public class PlayerController : MonoBehaviour
         }
 
         rigidbody2D.AddForce(new Vector2(forceX, transform.localPosition.y));
-
-
     }
 }
