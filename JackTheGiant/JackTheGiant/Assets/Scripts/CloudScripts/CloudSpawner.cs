@@ -85,7 +85,6 @@ public class CloudSpawner : MonoBehaviour
         {
             lastCloudPositionY = target.transform.position.y;
             CreateClouds();
-            FindObjectOfType<BackgroundSpawner>().StartSpawning();
         }
     }
 
