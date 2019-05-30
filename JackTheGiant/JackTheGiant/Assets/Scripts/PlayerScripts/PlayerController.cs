@@ -10,11 +10,34 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rigidbody2D;
     private Animator animator;
+
+    private float minX;
+    private float maxX;
     
     void Awake()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+    }
+
+    void Start()
+    {
+        SetPlayerBounds();
+    }
+
+    void Update()
+    {
+        if (transform.position.x < minX)
+        {
+            Vector3 temp = transform.position;
+            temp.x = minX;
+            transform.position = temp;
+        }else if(transform.position.x > maxX)
+        {
+            Vector3 temp = transform.position;
+            temp.x = maxX;
+            transform.position = temp;
+        }
     }
 
     void FixedUpdate()
@@ -57,5 +80,13 @@ public class PlayerController : MonoBehaviour
         }
 
         rigidbody2D.AddForce(new Vector2(forceX, transform.localPosition.y));
+    }
+
+    void SetPlayerBounds()
+    {
+        Vector3 bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
+
+        maxX = bounds.x;
+        minX = -bounds.x;
     }
 }
