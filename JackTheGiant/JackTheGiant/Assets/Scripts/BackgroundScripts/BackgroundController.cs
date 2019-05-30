@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class BackgroundController : MonoBehaviour
 {
+
     void Awake()
     {
         GetWorldSpace();
     }
+
     private void GetWorldSpace()
     {
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
@@ -22,4 +24,6 @@ public class BackgroundController : MonoBehaviour
 
         transform.localScale = tempScale;
     }
+
+
 }

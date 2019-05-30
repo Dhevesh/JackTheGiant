@@ -10,7 +10,8 @@ public class CloudSpawner : MonoBehaviour
     [SerializeField]
     private GameObject darkCloud;
 
-    private float distanceBetweenClouds = 4f;
+    private float minDistanceBetweenClouds = 5f;
+    private float maxDistanceBetweenClouds = 7f;
 
     private float minX;
     private float maxX;
@@ -46,6 +47,7 @@ public class CloudSpawner : MonoBehaviour
         //Vector3 temp = whiteClouds[cloudIndex].transform.position;
         float xPos = 0f;
         float yPos;
+        float distanceBetweenClouds = Random.Range(minDistanceBetweenClouds, maxDistanceBetweenClouds);
         newCloudPositionY = lastCloudPositionY - distanceBetweenClouds;
         yPos = newCloudPositionY;
         switch (controlX)
@@ -75,7 +77,6 @@ public class CloudSpawner : MonoBehaviour
         getCloud.transform.position = new Vector3(xPos, yPos, 0);
         GameObject spawnedClouds = Instantiate(getCloud);
         
-        
     }
 
     void OnTriggerEnter2D(Collider2D target)
@@ -84,6 +85,7 @@ public class CloudSpawner : MonoBehaviour
         {
             lastCloudPositionY = target.transform.position.y;
             CreateClouds();
+            FindObjectOfType<BackgroundSpawner>().StartSpawning();
         }
     }
 
